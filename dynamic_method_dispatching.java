@@ -25,7 +25,8 @@ class laptop extends computer{
 }
 
 
-class test{
+class dynamic_method_dispatching{
+{
     public static void main(String args[]){
         System.out.println("Hello world !");
 
