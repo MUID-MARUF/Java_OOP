@@ -37,7 +37,8 @@ public class proper_array_of_objects {
         int i = 1;
         while (i < array_size) {
             System.out.println("Enter name of object " + i);
-            namex = input.next();
+            namex = input.nextln();
+            input.nextln();
             System.out.println("Enter ID of object " + i);
             IDx = input.nextInt();
             arr[i] = new object(namex, IDx);
