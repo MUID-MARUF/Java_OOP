@@ -1,3 +1,5 @@
+//Also called as Composition
+
 class A{
     String name;
 
